@@ -1,5 +1,5 @@
 /*
- * CpuTemp.c
+ * Main.c
  *
  *  Xuz @ 2014-12-13
  */
@@ -10,11 +10,7 @@ int main(void) {
 	double cpuTemp = getCpuTemp();
 	printf("cpu temp: %.2f\n", cpuTemp);
 
-	while (1) {
-		setLedOn(0);
-		delay(500);
+	setLedFlash(0, 3);
 
-		setLedOff(0);
-		delay(500);
-	}
+	return 0;
 }

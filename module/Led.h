@@ -11,8 +11,19 @@
 #ifndef MODULE_LED
 #define MODULE_LED
 
+/**
+ * turn on LED
+ */
 void setLedOn(int pin);
 
+/**
+ * turn off LED
+ */
 void setLedOff(int pin);
+
+/**
+ * flash LED 'X' times
+ */
+void setLedFlash(int pin, int times);
 
 #endif /* MODULE_LED */
