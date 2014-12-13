@@ -3,10 +3,11 @@ RasPi
 
 Raspberry Pi
 
-Cross compiler
+Wiring Pi mapping of the Raspberry Pi GPIO Pins
+  https://projects.drogon.net/raspberry-pi/wiringpi/pins/
 
-http://hertaville.com/2012/09/28/development-environment-raspberry-pi-cross-compiler/
+Cross compiler
+   http://hertaville.com/2012/09/28/development-environment-raspberry-pi-cross-compiler/
 
 After cross-compile fast copy executable to Raspberry Pi for test
-
-scp /home/user/workspace/RasPi/Debug/RasPi pi@raspberrypi:/home/pi/RasPi/RasPi
+   scp /home/user/workspace/RasPi/Debug/RasPi pi@raspberrypi:/home/pi/RasPi/RasPi
