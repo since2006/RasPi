@@ -9,10 +9,6 @@
 
 void setLedOn(int pin) {
 
-	if (wiringPiSetup() == -1) {
-		fprintf(stderr, "failed to setup wiringPi\n");
-		return;
-	}
 	pinMode(pin, OUTPUT);
 	digitalWrite(pin, HIGH);
 
@@ -20,10 +16,6 @@ void setLedOn(int pin) {
 
 void setLedOff(int pin) {
 
-	if (wiringPiSetup() == -1) {
-		fprintf(stderr, "failed to setup wiringPi\n");
-		return;
-	}
 	pinMode(pin, OUTPUT);
 	digitalWrite(pin, LOW);
 

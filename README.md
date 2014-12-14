@@ -24,7 +24,12 @@ GND     Pin9                GND
 GPIO4   Pin7                DO
 ```
 Sound Sensor
-
+```
+  RasPi                 Light Sensor
+5v    		Pin1                VCC
+GND     	Pin14                GND
+GPIO18		Pin12                OUT
+```
 
 ****
 

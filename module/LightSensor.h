@@ -7,7 +7,7 @@
 /*
 		RasPi                            Light Sensor
 3.3v		Pin1								VCC
-GND		Pin6								GND
+GND		Pin9								GND
 GPIO4	Pin7								DO
 */
 
